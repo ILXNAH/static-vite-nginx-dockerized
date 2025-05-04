@@ -118,7 +118,9 @@ Your app will be available at [http://localhost:4173](http://localhost:4173).
 ├── .dockerignore
 ├── .gitignore
 ├── public/                # Static public assets (custom location used in build)
+│   └── index.html
 ├── src/                   # Vite source files
+│   └── main.js
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js         # Configures custom public directory and build settings
