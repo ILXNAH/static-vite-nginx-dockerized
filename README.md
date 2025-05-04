@@ -9,6 +9,7 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Overview](#-overview)
 - [Features](#-features)
 - [Usage](#-usage)
+- [Development & Local Testing](#-development--local-testing)
 - [Project Structure](#-project-structure)
 - [Building the Image Locally](#-building-the-image-locally)
 - [Notes](#-notes)
@@ -43,6 +44,9 @@ Originally developed as part of a **DevOps technical test**, showcasing best pra
 - **Easy to Extend**  
   Customize the NGINX configuration or use behind a reverse proxy/CDN.
 
+- **Multi-Stage Docker Build**  
+  Vite build happens inside the container at build time, producing a lean final image.
+
 ---
 
 ## 🚀 Usage
@@ -64,6 +68,44 @@ Visit your site at: [http://localhost:8080](http://localhost:8080)
 > Note: This is **not** an SPA (Single Page Application).  
 > NGINX serves static files directly as individual pages or assets.  
 > Deep linking or direct navigation to nested URLs requires corresponding files in the build output (`dist/`).
+
+---
+
+## 🧪 Development & Local Testing
+
+If you want to test or modify the app **without using Docker**, follow these steps:
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+Your app will be available at [http://localhost:5173](http://localhost:5173) or another port.
+
+### Build the production static files
+
+```bash
+npm run build
+```
+
+The build output will be placed in the `dist/` folder.
+
+### Test the production build locally
+
+```bash
+npm run preview
+```
+
+Your app will be available at [http://localhost:4173](http://localhost:4173).
+
+> Note: The `dist/` folder is excluded from version control because Docker handles the production build internally.
 
 ---
 
