@@ -9,7 +9,7 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Overview](#-overview)
 - [Features](#-features)
 - [Usage](#-usage)
-- [Project Structure](#-project-structure)
+- [Project Structure](#-source-structure)
 - [Building the Image Locally](#-building-the-image-locally)
 - [Notes](#-notes)
 - [Author](#-author)
