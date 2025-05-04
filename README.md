@@ -100,4 +100,4 @@ Built by [**ILXNAH**](https://github.com/ILXNAH/) as part of a hands-on DevOps a
 
 ## 🐳 Docker Hub
 
-[**View on Docker Hub →**](https://hub.docker.com/repository/docker/ilouckov/static-vite-nginx-dockerized/general)
+[**View on Docker Hub →**](https://hub.docker.com/r/ilouckov/static-vite-nginx-dockerized)
