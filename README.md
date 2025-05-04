@@ -4,6 +4,19 @@ A production-ready Docker image for serving static sites built with [Vite](https
 
 ---
 
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Building the Image Locally](#-building-the-image-locally)
+- [Notes](#-notes)
+- [Author](#-author)
+- [Docker Hub](#-docker-hub)
+
+---
+
 ## 📄 Overview
 
 This project provides a lightweight, efficient, and secure solution for hosting static web applications.  
