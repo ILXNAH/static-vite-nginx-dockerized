@@ -15,7 +15,8 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Notes](#-notes)
 - [Useful Resources](#-useful-resources)
 - [Author](#-author)
-- [Docker Hub](#-docker-hub)
+- [Docker Hub Image](#-docker-hub-image)
+- [Download Link](#-download-link)
 
 ---
 
@@ -168,6 +169,16 @@ Built by [**ILXNAH**](https://github.com/ILXNAH/) as part of a hands-on DevOps a
 
 ---
 
-## 🐳 Docker Hub
+## 🐳 Docker Hub Image
 
 [**View on Docker Hub →**](https://hub.docker.com/r/ilouckov/static-vite-nginx-dockerized)
+
+---
+
+## 🗂 Download Link
+
+If you want to clone the repo:
+
+```bash
+git clone https://github.com/ILXNAH/static-vite-nginx-dockerized
+```
