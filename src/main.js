@@ -1,0 +1,1 @@
+document.getElementById('app').innerHTML += '<br>JS Loaded Successfully';

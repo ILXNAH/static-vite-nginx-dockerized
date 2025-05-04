@@ -1,0 +1,25 @@
+# Ignore local build output - we build fresh inside the container
+dist/
+
+# Ignore local dependencies - Docker will handle installs if needed
+node_modules/
+
+# Ignore Git version control data
+.git
+.gitignore
+
+# No need to copy Dockerfile itself into the image
+Dockerfile
+
+# Documentation not needed inside the image
+README.md
+
+# Vite config stays outside the container (unless explicitly needed)
+# vite.config.js
+
+# Package manager lock files - not needed unless doing npm install inside the container
+# package-lock.json
+# package.json
+
+# Ignore any log files
+*.log
