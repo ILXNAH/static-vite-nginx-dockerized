@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: '.',              // still root
-  publicDir: 'public',    // keep public/ for static assets
+  root: '.',              // Project root remains current directory
+  publicDir: 'public',    // Keep public/ for static assets (served as-is in both dev and production)
   build: {
     rollupOptions: {
-      input: 'public/index.html'
+      input: 'public/index.html'    // Custom index location for production build (does NOT affect dev server)
     }
   }
 });
