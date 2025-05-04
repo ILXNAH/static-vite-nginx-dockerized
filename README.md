@@ -70,7 +70,6 @@ Visit your site at: [http://localhost:8080](http://localhost:8080)
 ## 🗂 Project Structure
 
 ```plaintext
-├── dist/                  # Vite build output (static files)
 ├── nginx.conf             # Custom NGINX configuration for serving the app
 ├── Dockerfile
 ├── .dockerignore
