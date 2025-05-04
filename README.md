@@ -13,6 +13,7 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Project Structure](#-project-structure)
 - [Building the Image Locally](#-building-the-image-locally)
 - [Notes](#-notes)
+- [Useful Resources](#-useful-resources)
 - [Author](#-author)
 - [Docker Hub](#-docker-hub)
 
@@ -143,6 +144,13 @@ docker build -t ilouckov/static-vite-nginx-dockerized .
 - The `nginx.conf` can be customized to add gzip compression, custom headers, or SPA routing **if the app is modified in the future to require it**.
 - Each URL maps to a static file generated at build time.
 - Designed with simplicity and reliability in mind — suitable for DevOps test cases, personal projects, or real-world deployments.
+
+---
+
+## 🔗 Useful Resources
+
+- [How to use the official NGINX Docker image](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)  
+  Explains how to configure and extend NGINX in Docker containers, including setting up custom `nginx.conf` files, using volume mounts, proxying, and advanced options. Useful for understanding how the `nginx.conf` in this project works and how to customize it for other setups.
 
 ---
 
