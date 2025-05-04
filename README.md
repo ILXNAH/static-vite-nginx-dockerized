@@ -89,6 +89,11 @@ npm run dev
 ```
 
 Your app will be available at [http://localhost:5173](http://localhost:5173) or another port.
+> Tip: If port 5173 is already in use, Vite will automatically select another available port, or you can manually specify one using --port <number>, for example:
+
+```
+npm run dev -- --port 3000
+```
 
 ### Build the production static files
 
@@ -97,6 +102,7 @@ npm run build
 ```
 
 The build output will be placed in the `dist/` folder.
+> Note: The dist/ folder is excluded from version control because Docker handles the production build internally.
 
 ### Test the production build locally
 
