@@ -16,7 +16,7 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Useful Resources](#-useful-resources)
 - [Author](#-author)
 - [Docker Hub Image](#-docker-hub-image)
-- [Download Link](#-download-link)
+- [Get the Code](#-get-the-code)
 
 ---
 
@@ -175,7 +175,7 @@ Built by [**ILXNAH**](https://github.com/ILXNAH/) as part of a hands-on DevOps a
 
 ---
 
-## 🗂 Download Link
+## 💾 Get the Code
 
 If you want to clone the repo:
 
