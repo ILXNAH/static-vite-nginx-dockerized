@@ -7,10 +7,10 @@ A production-ready Docker image for serving static sites built with [Vite](https
 ## 📚 Table of Contents
 
 - [Overview](#-overview)
+- [Project Structure](#-project-structure)
 - [Features](#-features)
 - [Usage](#-usage)
 - [Development & Local Testing](#-development--local-testing)
-- [Project Structure](#-project-structure)
 - [Building the Image Locally](#-building-the-image-locally)
 - [Notes](#-notes)
 - [Useful Resources](#-useful-resources)
@@ -25,6 +25,25 @@ This project provides a lightweight, efficient, and secure solution for hosting 
 It bundles a Vite-built frontend and serves it via NGINX inside a Docker container, ensuring quick load times and minimal resource usage.
 
 Originally developed as part of a **DevOps technical test**, showcasing best practices for building, optimizing, and deploying containerized static sites.
+
+---
+
+## 🗂 Project Structure
+
+```plaintext
+├── nginx.conf             # Custom NGINX configuration for serving the app
+├── Dockerfile
+├── .dockerignore
+├── .gitignore
+├── public/                # Static public assets (custom location used in build)
+│   └── index.html
+├── src/                   # Vite source files
+│   └── main.js
+├── package.json
+├── package-lock.json
+├── vite.config.js         # Configures custom public directory and build settings
+└── README.md
+```
 
 ---
 
@@ -113,25 +132,6 @@ npm run preview
 Your app will be available at [http://localhost:4173](http://localhost:4173).
 
 > Note: The `dist/` folder is excluded from version control because Docker handles the production build internally.
-
----
-
-## 🗂 Project Structure
-
-```plaintext
-├── nginx.conf             # Custom NGINX configuration for serving the app
-├── Dockerfile
-├── .dockerignore
-├── .gitignore
-├── public/                # Static public assets (custom location used in build)
-│   └── index.html
-├── src/                   # Vite source files
-│   └── main.js
-├── package.json
-├── package-lock.json
-├── vite.config.js         # Configures custom public directory and build settings
-└── README.md
-```
 
 ---
 
