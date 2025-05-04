@@ -9,7 +9,7 @@ A production-ready Docker image for serving static sites built with [Vite](https
 - [Overview](#-overview)
 - [Features](#-features)
 - [Usage](#-usage)
-- [Project Structure](#-source-structure)
+- [Project Structure](#-project-structure)
 - [Building the Image Locally](#-building-the-image-locally)
 - [Notes](#-notes)
 - [Author](#-author)
@@ -67,7 +67,7 @@ Visit your site at: [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 🗂 Source Structure
+## 🗂 Project Structure
 
 ```plaintext
 ├── dist/                  # Vite build output (static files)
